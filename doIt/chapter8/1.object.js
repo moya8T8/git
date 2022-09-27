@@ -22,5 +22,5 @@ apple.emoji = '사과'
 console.log(apple.emoji);
 
 //속성삭제
-delete apple.emojidd
+delete apple.emoji
 console.log(pple.emoji);
