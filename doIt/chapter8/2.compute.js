@@ -23,6 +23,6 @@ console.log(obj) //job이라는 키값이 추가됨
 
 function deleteKey(obj, key){
     delete obj[key]
-} //이러면 삭젲됨 
+} //이러면 삭젲됨  
 
 //MDN 객체로 작업하기: https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Working_with_Objects
