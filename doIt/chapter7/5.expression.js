@@ -22,7 +22,7 @@ add3 = (a,b) => a+b
 console.log('add3 = (a,b) => a+b >>> ', add3(1,2))
 
 //생성자 함수라는 것도 있다 
-
+    
 //함수를 선언하고 바로 사용하고 싶을 때 : IIFE (Immedicatelty-Invoked Function Expressions )
 (function run(){
     console.log('✨');
