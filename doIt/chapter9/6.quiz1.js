@@ -34,3 +34,6 @@ counter2.increment();
 counter2.increment();
 console.log('2버전');
 console.log(counter2.value);
+/*
+복습 완료   
+*/
