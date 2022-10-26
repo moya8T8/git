@@ -40,8 +40,51 @@ console.log(deleted); //[ '🍎' ] 사과가 나가리됐슈
 fruits.splice(1, 1, '🍎', '🍓'); //첫번째 자리부터 사과와 딸기로 바꿀겡 
 console.log(fruits); // [ '🍌', '🍎', '🍓' ] 배열 자체를 수정(업데이트)
 
+//잘라진 새로운 배열을 만듦
+let newArr = fruits.slice(0,2);
+console.log('newArr', newArr); //newArr [ '🍌', '🍎' ]
+console.log(fruits); //[ '🍌', '🍎', '🍓' ]
+newArr = fruits.slice(-1); 
+console.log(newArr); //[ '🍓' ] 뒤에서 첫번째 딸기만 가져옴 
+
+//여러개의 배열을 붙여줌
+const arr1 = [1,2,3];
+const arr2 = [4,5,6];
+const arr3 = arr1.concat(arr2);
+console.log('arr3 >> ' , arr3); //arr3 >>  [ 1, 2, 3, 4, 5, 6 ]  
+
+//순서를 거꾸로 
+const arr4 = arr3.reverse();
+console.log('arr4 >>> ', arr4); //arr4 >>>  [ 6, 5, 4, 3, 2, 1 ]  
+
+//중첩 배열을 하나의 배열로 쫙 펴기
+let arr = [
+    [1, 2, 3],
+    [4, [5, 6, [3, 4]]],
+  ];
+
+console.log('중접배열  >>> ', arr);
+
+console.log('펼치기 >> ',arr.flat(3));
+ /*[
+    1, 2, 3, 4,
+    5, 6, 3, 4
+  ] */
+
+arr.fill(0); //특정한 값으로만 배열을 채우기 
+console.log(arr); //[0,0]
 
 
+arr.fill('s', 1, 3);
+console.log(arr); //[ 0, 's' ]
 
+arr.fill('a', 1);
+console.log(arr); //[ 0, 'a' ]
+
+//배열을 문자열로 합치기 
+let text = arr.join();
+console.log('text>>>>', text); //text >>>>  0,a
+text = arr.join('|');
+console.log(text);
 
 
