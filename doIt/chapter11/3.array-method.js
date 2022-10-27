@@ -85,6 +85,6 @@ console.log(arr); //[ 0, 'a' ]
 let text = arr.join();
 console.log('text>>>>', text); //text >>>>  0,a
 text = arr.join('|');
-console.log(text);
+console.log(text); //=> 이 함수 완전 유용하다 
 
 
