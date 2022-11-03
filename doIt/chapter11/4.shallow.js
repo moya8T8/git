@@ -22,3 +22,18 @@ console.log('store2', store2);
   { name: '🍜', price: 3 }
 ]sss
  */
+
+
+/**
+ * 곁다리
+ * 일급함수 first class function
+ * 함수가 일반객체처럼 사용할 수 있다면 
+ * 고차함수 higer-order function
+ * 인자로 함수를 받거나 콜백함수
+ * 함수를 반환하느 ㄴ함수를 고차함수 
+ * 
+ * side effect 함수 내부에서는 
+ * 순수함수를 여러개로 묶어두면 
+ * 
+ * 아 한마디로 따로 빼는 함수네 
+ */
