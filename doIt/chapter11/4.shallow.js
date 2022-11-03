@@ -20,5 +20,5 @@ console.log('store2', store2);
  * store2 [
   { name: '🍕', price: 2, owner: { name: 'Ellie' } },
   { name: '🍜', price: 3 }
-]
+]sss
  */
