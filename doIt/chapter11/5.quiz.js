@@ -10,7 +10,7 @@
     console.log(array);
     for (let index = 0; index < array.length; index++) {
         if(array[index] ==  to){
-            array[index] = one;
+            array[index] = one; //객체를 완전히 뺴내서 사용해야함 리뷰중 
         }
     }
     console.log(array) ;   
