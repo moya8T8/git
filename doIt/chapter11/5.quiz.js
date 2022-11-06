@@ -5,7 +5,7 @@
 
  const array = ['🍌', '🍓', '🍇', '🍓'];
 
- function change(array, one, to){
+ function change(array, one, to){ 
 
     console.log(array);
     for (let index = 0; index < array.length; index++) {
