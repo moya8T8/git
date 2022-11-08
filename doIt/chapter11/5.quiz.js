@@ -34,3 +34,5 @@ function check(array, one){
 }
 const array2 = [ '🍌', '🥝', '🍇', '🥝' ];
 check(array2, '🥝')
+
+
