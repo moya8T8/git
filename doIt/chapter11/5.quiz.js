@@ -36,3 +36,20 @@ const array2 = [ '🍌', '🥝', '🍇', '🥝' ];
 check(array2, '🥝')
 
 
+  // 퀴즈3: 배열1, 배열2 두개의 배열을 전달받아,
+  // 배열1 아이템중 배열2에 존재하는 아이템만 담고 있는 배열 반환
+  // input: ['🍌', '🥝', '🍇'],  ['🍌', '🍓', '🍇', '🍓']
+  // output: [ '🍌', '🍇' ]
+
+match = function(input, search){
+    const result = [];
+    for (let index = 0; index < input.length; index++) {
+        if(search.includes(input[i])){
+            result.push(input[i]);
+        }
+    }
+    return result;
+
+}
+
+  console.log(match(['🍌', '🥝', '🍇'], ['🍌', '🍓', '🍇', '🍓']));
