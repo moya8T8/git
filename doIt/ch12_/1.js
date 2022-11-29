@@ -29,3 +29,4 @@ const obj = { id: 123, name: 'Ellie' };
 for (const key in obj) {
   console.log(key);
 }
+//30일 복습 
