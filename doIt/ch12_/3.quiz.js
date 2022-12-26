@@ -25,7 +25,12 @@ function runIndelay2(callback, seconds){
     setTimeout(callback, seconds);
     
 }
+try{
+    runIndelay(()=> {console.log('타이머 완료');}, 2)
 
-runIndelay(()=> {console.log('타이머 완료');}, 2)
+}catch(error){
+
+}
 
 //arrow function 다시 한번 확인해보기 
+
